@@ -1,0 +1,3 @@
+function add-out(a, b, carry) = (a & !b & !carry) | (!a & b & !carry) | (!a & !b & carry) | (a & b & carry)
+
+function add-carry-out(a, b, carry) = (a & (b | carry)) | ( b & carry )
