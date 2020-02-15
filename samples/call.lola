@@ -1,0 +1,4 @@
+function max(a, b) = a | b
+function min(a, b) = a & b
+
+function some-stuff(a, b, c) = max(min(a, b), c) & 0 | 1
